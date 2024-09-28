@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    padding-right: 1px;
+}
+*:focus {
+    outline: none;
+}
+
+
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(180deg, #02d3b6, #5c84ce);
+}
+.mainContainer{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    height: 80vh;
+    width: 400px;
+    margin: 11vh auto;
+    border-radius: 1px;
+}
+    @media (max-width:500px){
+        .mainContainer{
+            width: 95%;
+            height: 85vh;
+        }
+        .mainContainer .registration h2 {
+            font-size: 20px;
+        }
+        .condition p {
+            font-size: 12px;
+        }
+    }
+.mainContainer .registration{
+    height: 8vh;
+    padding-top: 1px;
+    margin: 20px;
+}
+.mainContainer .registration h2{
+    margin: auto;
+    text-align: center;
+    background: linear-gradient(to right, #5c84ce, #23a38c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 23px;
+}
+.mainContainer .input-box input{
+height: 40px;
+width: 85%;
+margin: 10px;
+margin-left: 23px;
+border-left-style: none;
+border-right-style: none ;
+border-top-style: none ;
+border-color: #93e6d2;
+}
+
+.condition{
+    margin: auto;
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: baseline;
+
+}
+#submit{
+    background: linear-gradient(to right, #0390d8, #02d3b6);
+    width: 180px;
+    color: #b5f5eb;
+height: 29px;
+border: none;
+    padding: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.btn{
+    text-align: center;
+}
+button {
+    background: #ededed;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    }
+
+    button:active{
+    background: #e5e5e5;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    outline: none;
+    }
+
+    button {
+    background: #ededed;
+    border: 1px solid #ccc;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.myDiv {
+    padding-top: 80px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+} 
+.footer{
+    margin-left: 7%;
+    text-align: center;
+    text-size-adjust: 1%;
+    padding: 2%;
+}
